@@ -10,6 +10,6 @@
 | 抽象工厂模式(abstract_factory) | ❌ | ❌  | ✅ | ❌ |
 | 单例模式(singleton) | ❌ | ❌  | ✅ | ❌ |
 | 建造者模式(builder) | ❌ | ❌  | ✅ | ❌ |
-| 建造者模式(bridge) | ❌ | ❌  | ✅ | ❌ |
-| 建造者模式(prototype) | ❌ | ❌  | ✅ | ❌ |
-| 建造者模式(adapter) | ❌ | ❌  | ✅ | ❌ |
+| 桥接模式(bridge) | ❌ | ❌  | ✅ | ❌ |
+| 原型模式(prototype) | ❌ | ❌  | ✅ | ❌ |
+| 适配器模式(adapter) | ❌ | ❌  | ✅ | ❌ |
