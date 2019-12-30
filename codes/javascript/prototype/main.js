@@ -99,4 +99,20 @@ function main(){
     console.log(cloneShape1.getType());
     console.log(cloneShape2.getType());
 }
-main();
+//main();
+(function test(){
+    let max = 1000000;
+    let t = new Date().getTime();
+    let tmpCir = new Circle();
+    for(let i = 0; i < max; ++i){
+        let cir = tmpCir.clone();
+    }
+    console.log('clone', new Date().getTime() - t);
+    t = new Date().getTime();
+    for(let i = 0; i < max; ++i){
+        let cir = new Circle();
+    }
+    console.log('new',new Date().getTime() - t);
+})();
+// 原型模式在语言层次不支持的情况下，并不能提高效率
+// 上面的测试，clone的效率是new 的效率的1/4
